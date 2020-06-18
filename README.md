@@ -1,6 +1,4 @@
-# Github-Automation
-Automating Github Initial Commit using Python
-<h1 align=center>Github-Automation</h1>
+<h1 align=center>GitHub-Automation</h1>
 
 Automates Github Initial Commit by using Selenium Webdriver-Python
 
