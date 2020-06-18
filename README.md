@@ -19,6 +19,8 @@ Automates Github Initial Commit by using Selenium Webdriver-Python
 
 ```
 createrepo ProjectName
+Github Username: xyz
+Github Password:
 ```
 Enter the Github Username and Password <br />
 
