@@ -2,22 +2,25 @@
 
 Automates Github Initial Commit by using Selenium Webdriver-Python
 
-## Set Up
+## SetUp
 
 1. Clone this repository <br />
-2. Add the Default Projects folder in [.commands.sh](https://github.com/sooryaprakash31/Github-Automation/blob/master/.commands.sh#L9) 
-3. Download geckodriver and place it in the folder
+2. Add your Default Projects folder path in [.commands.sh](https://github.com/sooryaprakash31/Github-Automation/blob/master/.commands.sh#L9) 
+3. Download geckodriver from [here](https://github.com/mozilla/geckodriver/releases) and place it in the folder
 4. Copy the files to the standard directory <br />
   ```
-  sudo cp -a /Github-Automation/. /usr/bin/
+  sudo cp -a Github-Automation/. /usr/bin/
   ```
-## Execute <br />
+5. Navigate to `/usr/bin/`
+  ```
+  source .commands.sh
+  ```
+## Execution <br />
 
 ```
 createrepo ProjectName
 Github Username: xyz
 Github Password:
 ```
-Enter the Github Username and Password <br />
+Enter your Github credentials <br />
 
->Account Credentials are not stored anywhere
