@@ -1,7 +1,6 @@
 #!/bin/bash
 
-function create-repo(){
-
+function createrepo(){
      read -p "Github Username: " username
      read -s -p "Github Password: " password
      python3 github_automate.py $1 $username $password
@@ -10,7 +9,7 @@ function create-repo(){
      mkdir $1
      cd $1
      git init
-     git remote add origin  https://github.com/$username/$1.git
+     git remote add origin https://github.com/$username/$1.git
      touch README.MD
      git add .
      git commit -m "Initial Commit"
