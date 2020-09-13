@@ -1,4 +1,4 @@
-<h1 align=center>GitHub-Automation</h1>
+<h1 align=center>Initial Committer</h1>
 
 Automates Github Initial Commit by using Selenium Webdriver-Python
 ## Requirements
