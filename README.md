@@ -3,7 +3,7 @@
 Automates Github Initial Commit by using Selenium Webdriver-Python
 ## Requirements
 - [python3](https://www.python.org/downloads/)
-- [Selenium](https://www.selenium.dev/selenium/docs/api/py/)
+- `pip install selenium`
 - Clone of this repository
 
 ## SetUp
