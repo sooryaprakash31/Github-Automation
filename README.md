@@ -1,4 +1,4 @@
-<h1 align=center>Initial Committer</h1>
+# Initial Committer
 
 Automates Github Initial Commit by using Selenium Webdriver-Python
 ## Requirements
@@ -13,9 +13,12 @@ Automates Github Initial Commit by using Selenium Webdriver-Python
 3. `cd InitialCommitter`
 4. `source .commands.sh`
 
-## Execution <br />
+## Execution
+1. `cd InitialCommitter`
+2. `createrepo <ProjectName>`
 
-```
-createrepo <ProjectName>
-```
-Enter your Github credentials <br />
+## Output
+- A New folder with the `<Project-Name>` will be created in the default projects folder.
+- The created folder will be initiated as git repository
+- New repository will be created in GitHub with the `<Project-Name>`
+- The local repository will be staged, committed "Initial Commit" and pushed to the GitHub repository
