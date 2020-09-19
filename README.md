@@ -22,3 +22,9 @@ Automates Github Initial Commit by using Selenium Webdriver-Python
 - The created folder will be initiated as git repository
 - New repository will be created in GitHub with the `<Project-Name>`
 - The local repository will be staged, committed "Initial Commit" and pushed to the GitHub repository
+
+## License
+- [MIT License](/LICENSE.md)
+
+---
+## _Leave a :star: if you find this useful!_
